@@ -3,7 +3,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('menu');
 
     burger.addEventListener('click', function () {
-        menu.classList.toggle('open'); // Добавим класс "open" для открытия/закрытия меню
-        menu.style.display = menu.classList.contains('open') ? 'block' : 'none'; // Управляем отображением меню
+        burger.classList.toggle('open');
+
+        if (menu.classList.contains('open')) {
+            menu.classList.remove('open');
+            setTimeout(() => {
+                menu.style.display = 'none';
+            }, 300);
+        } else {
+            menu.style.display = 'block';
+            setTimeout(() => {
+                menu.classList.add('open');
+            }, 10);
+        }
     });
 });
