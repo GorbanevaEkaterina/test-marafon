@@ -1,5 +1,5 @@
 .page {
-  max-width: 1920px;
+  min-width: 320px;
   /* font-family: var(--main-font, "Inter"), sans-serif; */
 }
 .header {
@@ -75,7 +75,7 @@
   height: 300px;
   margin-bottom: 40px;
   z-index: 1;
-  background-image: var(--page-background-image, url(../images/cover1920.jpg));
+  background-image: url(../images/cover1920.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
