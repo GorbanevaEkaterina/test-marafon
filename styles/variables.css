@@ -1,0 +1,25 @@
+:root {
+    /* --main-font: "Inter"; */
+    --bg-color: #E5E5E5;
+    --text-color: #2F222240;
+    --accent-color: #5D71DD;
+    --header-background-color: #FFFFFF;
+    --heading-color: #2F2222;
+    --text-button: #FFFFFF;
+    --hover-form-button: #6C7DD8;
+    --button-background-color1: #5D71DD05;
+    --button-background-color2: #FFFFFF20;
+    --card-category-color: #2F2222;
+    --card-category-background-color:rgb(255, 255, 255,0.2);
+    --card-background-image1: url(../images/cover-card1.png); 
+    --card-background-image2: url(../images/cover-card2.png); 
+    --news-date-color: #E5E4E4;
+    --separator-color: #2F222210;
+    --content-title-color: #2F2222;
+    --hover-button-color: #5D71DD15;
+    --active-button-color: #5D71DD20;
+    --page-background-image: url(../images/cover1920.png);
+    --color-shadow:#5D71DD25;
+    --pagination-color: #000000;
+    --footer-background-color:rgb(93, 113, 221, 0.05);
+  }
